@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Zavrsni_rad/static/css/main.79a48ba8.css",
+    "main.js": "/Zavrsni_rad/static/js/main.be0fd1ad.js",
+    "static/js/787.095098a2.chunk.js": "/Zavrsni_rad/static/js/787.095098a2.chunk.js",
+    "index.html": "/Zavrsni_rad/index.html",
+    "main.79a48ba8.css.map": "/Zavrsni_rad/static/css/main.79a48ba8.css.map",
+    "main.be0fd1ad.js.map": "/Zavrsni_rad/static/js/main.be0fd1ad.js.map",
+    "787.095098a2.chunk.js.map": "/Zavrsni_rad/static/js/787.095098a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79a48ba8.css",
+    "static/js/main.be0fd1ad.js"
+  ]
+}

@@ -1,0 +1,105 @@
+.icons {
+  margin-right: 5px;
+}
+
+.posao-dugo {
+  display: block;
+}
+/*---------------------skraceno--------------------*/
+.posao-kratko {
+  width: 800px;
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: crimson;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.div-kratko {
+  margin-left: 40px;
+}
+
+.gornji-dio {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.p-cijena {
+  margin: 0px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: aqua;
+  height: 25px;
+  padding: 2px 10px;
+  white-space: nowrap;
+}
+
+.btn-vise {
+  margin-right: 40px;
+  height: 30%;
+  cursor: pointer;
+  color: #3a3a3c;
+  display: inline-block;
+  border: 1px solid #dcdcdc;
+  font-size: 1.1rem;
+  padding: 8px 9px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/*-----------------donji dio---------------*/
+
+.posao-nastavak {
+  position: flex;
+  display: none;
+}
+
+/*-----------------mobilni---------------*/
+
+@media (max-width: 1050px) {
+  .posao-kratko {
+    width: auto;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 950px) {
+  .posao-kratko {
+    max-width: 450px;
+  }
+  .btn-vise {
+    margin: 0px 0px 20px 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .posao-kratko {
+    width: auto;
+    max-width: none;
+  }
+  .btn-vise {
+    margin: 0px 0px 20px 35px;
+  }
+}
+
+@media (max-width: 300px) {
+  .gornji-dio {
+    flex-wrap: wrap;
+  }
+  .p-cijena {
+    margin: 0px 0px;
+  }
+  .div-kratko {
+    margin-left: 20px;
+  }
+  .btn-vise {
+    margin: 0px 0px 20px 15px;
+  }
+}

@@ -1,0 +1,83 @@
+#sve {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* bottom: -450px;*/
+  bottom: -95vh;
+  height: auto;
+  background-color: blueviolet;
+}
+
+.container-newposao {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  width: 500px;
+  z-index: 1;
+  margin: 0px;
+  margin-top: 50px;
+  margin-bottom: 280px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.newposao-naslov {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.btn-zatvori {
+  font-size: 15px;
+  height: 50%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.newposao-ostalo {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 0px 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  margin-bottom: 15px;
+  border-width: 0px 0px 2px 0px;
+  font-size: 17px;
+}
+
+.div-noInput {
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.div-select {
+  display: flex;
+  flex-direction: row;
+}
+
+select {
+  width: 80px;
+  margin-right: 15px;
+}
+
+.btn-posalji {
+  font-size: 15px;
+  height: 40px;
+  width: 60px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.container-posao {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 800px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+/*-----------------mobilni---------------*/
+
+@media (max-width: 1300px) {
+  .container-posao {
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}

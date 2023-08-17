@@ -1,0 +1,117 @@
+:root {
+  --boja-tocke: red;
+}
+
+.indexFilter-sve {
+  position: absolute;
+  display: flex;
+  background: rgba(18, 15, 15, 0.9);
+  top: 0px;
+  bottom: 0px;
+  left: 0%;
+  right: 0;
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.indexFilter-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 520px;
+  top: 50px;
+  background-color: var(--boja-texta-v3);
+  border-radius: 5px;
+  padding: 30px 50px;
+  margin: 0px 0px 0px auto;
+}
+
+.indexFilter-ikona {
+  position: relative;
+  display: flex;
+  margin: 0px auto 0px 10px;
+  top: 50px;
+}
+#indexFilter-ikona-ikona {
+  background-color: none;
+  color: var(--boja-texta-v3);
+  height: 50px;
+  width: 50px;
+  margin: 15px 0px 0px 5px;
+  cursor: pointer;
+}
+
+.indexFilter-naslov {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.indexFilter-naslov > strong {
+  font-size: 20px;
+}
+.indexFilter-izbori {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.index-div-kucica {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  margin-bottom: 15px;
+  background-color: var(--boja-pozadine-v1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.indexFilter-div-tocka {
+  border-radius: 10px;
+  border-left: 4px solid red;
+  border-color: var(--boja-tocke);
+  height: 4px;
+  margin: 0px 10px;
+  align-self: center;
+}
+
+.indexFilter-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.indexFilter-button button {
+  background-color: var(--boja-texta);
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid black;
+  color: white;
+}
+
+@media (max-width: 750px) {
+  .indexFilter-content {
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    padding: 30px 50px;
+  }
+  .indexFilter-ikona {
+    position: fixed;
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    top: 0px;
+    right: 0px;
+  }
+  #indexFilter-ikona-ikona {
+    color: #0000008c;
+    width: 46px;
+    height: 46px;
+  }
+}

@@ -1,0 +1,93 @@
+:root {
+  --boja-texta: rgb(93, 165, 233);
+  --boja-texta-v2: black;
+  --boja-texta-v3: rgb(248, 244, 244);
+  --boja-texta-v4: rgb(22 22 32);
+  --boja-pozadine-v1: rgb(225, 232, 236);
+  --boja-pozadine-v2: #21417c;
+}
+
+.posao-span-v2 {
+  color: var(--boja-texta-v2);
+}
+.posao-span-v1 {
+  color: var(--boja-texta);
+}
+
+.all-home {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-home,
+.main-home {
+  display: flex;
+  justify-content: center;
+  background-color: var(--boja-pozadine-v1);
+}
+
+.title-name {
+  font-size: 80px;
+  color: var(--boja-texta);
+  padding: 50px;
+}
+
+.main-home {
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  flex-direction: row;
+}
+
+.div-btn-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.btn-home {
+  border-radius: 8px;
+  color: var(--boja-texta);
+  border-color: var(--boja-texta);
+  background-color: var(--boja-texta-v3);
+  width: 220px;
+  height: 100px;
+  text-align: center;
+  line-height: 1.1em;
+  font-size: 1.8em;
+  margin: 5px;
+}
+
+.div-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0px 25px;
+  flex-wrap: wrap;
+}
+.title-about {
+  color: var(--boja-texta);
+}
+.text-about {
+  position: relative;
+  display: inline-flex;
+  background-color: var(--boja-pozadine-v1);
+  border: none;
+  font-size: 20px;
+  max-width: 300px;
+}
+
+/*-------------------mobile-------------------*/
+
+@media (max-width: 500px) {
+  .title-name {
+    font-size: 60px;
+
+    padding: 10px;
+  }
+}
+@media (max-width: 340px) {
+  .title-name {
+    font-size: 50px;
+  }
+}

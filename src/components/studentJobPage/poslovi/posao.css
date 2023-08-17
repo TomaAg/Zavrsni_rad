@@ -1,0 +1,225 @@
+.icons {
+  margin-right: 5px;
+}
+
+.posao-dugo {
+  display: block;
+}
+
+.posao-span-v2 {
+  color: var(--boja-texta-v2);
+}
+.posao-span-v1 {
+  color: var(--boja-texta);
+}
+/*---------------------skraceno--------------------*/
+.posao-kratko {
+  width: 800px;
+  margin-bottom: 50px;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--boja-pozadine-v1);
+  border-radius: 10px;
+  flex-wrap: nowrap;
+}
+
+.div-kratko {
+  margin-left: 40px;
+}
+
+.gornji-dio {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.p-cijena {
+  margin: 0px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--boja-texta);
+  color: var(--boja-texta-v2);
+  height: 25px;
+  padding: 2px 10px;
+  white-space: nowrap;
+}
+
+.btn-vise {
+  margin: 0px 40px 10px 10px;
+  height: 30%;
+  cursor: pointer;
+  color: var(--boja-texta-v2);
+  display: inline-block;
+  border: 1px solid var(--boja-texta);
+  font-size: 1.1rem;
+  padding: 8px 9px;
+  background-color: var(--boja-texta);
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+/*-----------------vise---------------*/
+
+.posao-dugo {
+  width: 800px;
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--boja-pozadine-v1);
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.posao-kratko-vise {
+  width: 800px;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.posao-nastavak {
+  width: 800px;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-bottom: 25px;
+  margin-top: 8px;
+}
+
+.nastavak-none {
+  display: none;
+}
+
+.div-nastavak {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.div-nastavak-content {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  width: 350px;
+}
+
+.div-nastavak span {
+  margin-bottom: 7px;
+}
+
+.div-nastavak-content-2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 30px;
+  margin-bottom: 25px;
+  width: 720px;
+  overflow: hidden;
+  white-space: wrap;
+}
+/*-----------------mobilni---------------*/
+@media (max-width: 1131px) {
+  .posao-kratko {
+    width: auto;
+    max-width: 1200px;
+  }
+  .posao-dugo {
+    width: min-content;
+    max-width: 1200px;
+  }
+  .posao-kratko-vise {
+    width: auto;
+    max-width: 1200px;
+  }
+  .posao-nastavak {
+    width: auto;
+  }
+  .div-nastavak {
+    flex-wrap: nowrap;
+  }
+  .div-nastavak-content {
+    margin-right: auto;
+    width: 250px;
+  }
+  .div-nastavak-content-2 {
+    width: 500px;
+  }
+}
+
+@media (max-width: 608px) {
+  .posao-dugo {
+    width: auto;
+  }
+  .div-nastavak-content {
+    margin-right: 30px;
+    width: 47%;
+  }
+
+  .div-nastavak-content-2 {
+    margin-right: 30px;
+    margin-bottom: 25px;
+    width: 90%;
+  }
+  .posao-nastavak {
+    margin-left: 20px;
+    margin-right: 5px;
+  }
+  .div-kratko {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 599px) {
+  .div-kratko {
+    margin-right: 20px;
+  }
+  .p-cijena {
+    margin-left: 0px;
+  }
+  .gornji-dio h3 {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 496px) {
+  .gornji-dio h3 {
+    margin-right: 20px;
+  }
+  .posao-kratko {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 485px) {
+  .div-nastavak {
+    flex-wrap: wrap;
+  }
+
+  .div-nastavak-content {
+    margin-right: 30px;
+    width: 100%;
+  }
+
+  .div-nastavak-content-2 {
+    margin-right: 30px;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+}

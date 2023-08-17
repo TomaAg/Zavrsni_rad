@@ -1,0 +1,139 @@
+.viseInfo-sve {
+  position: absolute;
+  display: flex;
+  background: rgba(18, 15, 15, 0.9);
+  top: 0px;
+  bottom: 0px;
+  left: 0%;
+  right: 0;
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+}
+
+.viseInfo-content {
+  position: relative;
+  display: flex;
+  top: 50px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0px 0px 0px 0px;
+  flex-direction: column;
+  height: min-content;
+  width: min-content;
+}
+.viseInfo-gore {
+  height: 210px;
+  width: 600px;
+  margin: 0px;
+  background-color: rgb(84, 84, 204);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.viseInfo-gore > img {
+  height: inherit;
+  width: inherit;
+  border-radius: 5px 5px 0px 0px;
+}
+.viseInfo-sredina {
+  padding: 20px 40px;
+}
+
+.viseInfo-sredina > p {
+  font-size: 25px;
+}
+.viseInfo-sredina > hr {
+  margin: 20px 0px;
+}
+
+.info-main-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.info-hr-v {
+  border-left: 1px solid black;
+  height: 20px;
+  margin: 0px 10px;
+}
+.viseInfo-dole {
+  display: flex;
+  justify-content: end;
+}
+.viseInfo-dole > a > button {
+  background-color: #f23a2c;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px 10px 5px 10px;
+  color: var(--boja-texta-v3);
+  border: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indexInfo-ikona-div {
+  position: relative;
+  display: flex;
+  margin: 0px 0px 0px 10px;
+  top: 50px;
+}
+#indexInfo-ikona {
+  background-color: none;
+  color: white;
+  height: 50px;
+  width: 50px;
+  margin: 15px 0px 0px 5px;
+  cursor: pointer;
+}
+.indexInfo-ikona-mala {
+  color: #f23a2c;
+  width: 12px;
+  margin-right: 5px;
+}
+
+@media (max-width: 780px) {
+  .viseInfo-content {
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    top: 0px;
+    border-radius: 0px;
+  }
+  .indexInfo-ikona-div {
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    right: 10px;
+  }
+  #infoVise-balck {
+    background: black;
+    height: 50px;
+    width: 50px;
+    margin: 15px 0px 0px 5px;
+    border-radius: 100px;
+    padding: 0px;
+  }
+  #indexInfo-ikona {
+    margin: 0px;
+  }
+  .viseInfo-dole {
+    justify-content: start;
+  }
+  .viseInfo-dole > a > button {
+    margin-left: 0px;
+  }
+  .viseInfo-gore {
+    display: flex;
+    width: inherit;
+    background: rgb(192 211 224 / 90%);
+    justify-content: center;
+    align-items: center;
+  }
+  .viseInfo-gore > img {
+    width: inherit;
+    height: initial;
+  }
+}

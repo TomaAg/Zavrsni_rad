@@ -1,0 +1,121 @@
+.newDogadaj-sve {
+  position: absolute;
+  display: flex;
+  background: rgba(18, 15, 15, 0.9);
+  top: 0px;
+  bottom: 0px;
+  left: 0%;
+  right: 0;
+  z-index: 3;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.newDogadaj-sve-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  top: 25px;
+  background-color: var(--boja-texta-v3);
+  padding: 25px;
+  margin: 0px;
+  border-radius: 10px;
+  border: 1px solid var(--boja-texta-v4);
+}
+
+.newDogadaj-gore {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.newDogadaj-gore > h3 {
+  font-size: 25px;
+  margin: 5px;
+}
+
+.index-new-btn {
+  font-size: 15px;
+  height: 50%;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--boja-texta-v4);
+  border-color: var(--boja-texta-v4);
+  background-color: var(--boja-texta-v3);
+}
+
+.newDogadaj-sredina {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+.newDogadaj-sredina > label {
+  margin-bottom: 5px;
+}
+
+.newDogadaj-sredina > input {
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.newDogadaj-sredina > select {
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.newDogadaj-sredina > textarea {
+  margin-bottom: 15px;
+}
+
+.newDogadaj-select > select {
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+
+.newDogadaj-dole {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.index-btn-new-posalji {
+  font-size: 15px;
+  height: 50%;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: var(--boja-texta-v4);
+  border-color: var(--boja-texta-v4);
+  background-color: var(--boja-texta-v3);
+}
+
+@media (max-width: 660px) {
+  .newDogadaj-sve-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    padding: 25px 25px 25px 25px;
+    margin: 0px;
+    border-radius: 0px;
+    border: none;
+  }
+  .index-new-btn {
+    height: auto;
+    height: 39px;
+    width: 62px;
+  }
+  .newDogadaj-gore {
+    align-items: center;
+  }
+  .index-btn-new-posalji {
+    height: auto;
+    height: 39px;
+    width: 62px;
+  }
+}

@@ -1,0 +1,17 @@
+.stuJob-sve {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.stuJob-raspored {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: var(-boja-texta-v3);
+}
+
+@media (max-width: 924px) {
+  .stuJob-raspored {
+    flex-direction: column;
+  }
+}
